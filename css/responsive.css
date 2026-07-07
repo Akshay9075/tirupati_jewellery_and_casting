@@ -1,0 +1,367 @@
+/* ============================================
+   Tirupati Jewellery & Casting - Responsive
+   ============================================ */
+
+/* Large Desktop */
+@media (max-width: 1399px) {
+  .hero-content h1 {
+    font-size: 2.8rem;
+  }
+}
+
+/* Laptop */
+@media (max-width: 1199px) {
+  section {
+    padding: 70px 0;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .section-title h2 {
+    font-size: 2rem;
+  }
+
+  .about-preview-img img {
+    height: 400px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  section {
+    padding: 60px 0;
+  }
+
+  .top-bar {
+    font-size: 0.75rem;
+  }
+
+  .top-bar .col-md-4 {
+    text-align: center !important;
+    margin-bottom: 4px;
+  }
+
+  .hero-content {
+    padding: 120px 0 80px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .page-banner {
+    padding: 140px 0 60px;
+  }
+
+  .page-banner h1 {
+    font-size: 2.2rem;
+  }
+
+  .about-preview-img {
+    margin-bottom: 30px;
+  }
+
+  .about-preview-img img {
+    height: 350px;
+  }
+
+  .counter-item .counter-number {
+    font-size: 2.5rem;
+  }
+
+  .cta-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .cta-section .phone-number {
+    font-size: 1.6rem;
+  }
+
+  .contact-form-wrap {
+    padding: 30px;
+    margin-top: 30px;
+  }
+
+  .service-detail-img img {
+    height: 300px;
+  }
+
+  .service-detail .order-md-2 {
+    margin-top: 30px;
+  }
+
+  .policy-content .policy-wrap {
+    padding: 32px;
+  }
+
+  .footer-brand {
+    margin-bottom: 30px;
+  }
+
+  .navbar-spacer.active {
+    height: 68px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  section {
+    padding: 50px 0;
+  }
+
+  .top-bar {
+    display: none;
+  }
+
+  .navbar-brand-wrap img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .brand-text .brand-name {
+    font-size: 0.9rem;
+  }
+
+  .brand-text .brand-tag {
+    font-size: 0.6rem;
+  }
+
+  .hero-section {
+    min-height: auto;
+  }
+
+  .hero-content {
+    padding: 100px 0 70px;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-content .hero-sub {
+    font-size: 1rem;
+  }
+
+  .hero-content p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.95rem;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-scroll {
+    display: none;
+  }
+
+  .section-title h2 {
+    font-size: 1.6rem;
+  }
+
+  .section-title {
+    margin-bottom: 36px;
+  }
+
+  .about-preview-img img {
+    height: 280px;
+  }
+
+  .experience-badge {
+    padding: 14px 18px !important;
+  }
+
+  .experience-badge .year {
+    font-size: 1.5rem !important;
+  }
+
+  .service-card {
+    padding: 28px 20px;
+  }
+
+  .counter-section {
+    padding: 50px 0;
+  }
+
+  .counter-item {
+    padding: 16px;
+  }
+
+  .counter-item .counter-number {
+    font-size: 2rem;
+  }
+
+  .counter-item .counter-label {
+    font-size: 0.78rem;
+  }
+
+  .testimonial-inner {
+    padding: 30px 24px;
+  }
+
+  .testimonial-inner p {
+    font-size: 0.95rem;
+  }
+
+  .cta-section {
+    padding: 50px 0;
+  }
+
+  .cta-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .cta-section .phone-number {
+    font-size: 1.4rem;
+  }
+
+  .page-banner {
+    padding: 120px 0 50px;
+  }
+
+  .page-banner h1 {
+    font-size: 1.8rem;
+  }
+
+  .contact-form-wrap {
+    padding: 24px;
+  }
+
+  .map-wrap,
+  .map-wrap iframe {
+    min-height: 280px;
+  }
+
+  .floating-whatsapp {
+    width: 50px;
+    height: 50px;
+    font-size: 1.4rem;
+    bottom: 80px;
+    right: 16px;
+  }
+
+  .back-to-top {
+    width: 40px;
+    height: 40px;
+    right: 16px;
+    bottom: 16px;
+  }
+
+  .site-footer {
+    padding-top: 50px;
+  }
+
+  .footer-title {
+    margin-top: 10px;
+  }
+
+  .policy-content .policy-wrap {
+    padding: 24px;
+  }
+
+  .policy-content h2 {
+    font-size: 1.3rem;
+  }
+
+  .about-intro-card {
+    padding: 24px;
+  }
+
+  .service-detail {
+    padding: 40px 0;
+  }
+
+  .contact-info-card {
+    padding: 24px;
+    margin-bottom: 24px;
+  }
+
+  .btn-gold, .btn-outline-gold, .btn-whatsapp {
+    padding: 10px 22px;
+    font-size: 0.85rem;
+  }
+
+  .navbar-spacer.active {
+    height: 62px;
+  }
+}
+
+/* Extra Small */
+@media (max-width: 575px) {
+  .hero-content h1 {
+    font-size: 1.55rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-buttons .btn-gold,
+  .hero-buttons .btn-outline-white {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+
+  .section-title h2 {
+    font-size: 1.4rem;
+  }
+
+  .section-title .subtitle {
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+  }
+
+  .gallery-item {
+    aspect-ratio: 4/3;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-buttons .btn-outline-white,
+  .cta-buttons .btn-whatsapp {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+
+  .breadcrumb-nav {
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+  }
+
+  .brand-text .brand-name {
+    font-size: 0.8rem;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 0 !important;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .navbar-nav .nav-link::after {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero-content h1 {
+    font-size: 1.4rem;
+  }
+
+  .counter-item .counter-number {
+    font-size: 1.7rem;
+  }
+}

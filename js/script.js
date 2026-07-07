@@ -226,69 +226,69 @@
   });
 
   /* ---- Form Validation ---- */
-  var contactForms = document.querySelectorAll('.contact-form');
+  // var contactForms = document.querySelectorAll('.contact-form');
 
-  contactForms.forEach(function (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var isValid = true;
+  // contactForms.forEach(function (form) {
+  //   form.addEventListener('submit', function (e) {
+  //     e.preventDefault();
+  //     var isValid = true;
 
-      form.querySelectorAll('[required]').forEach(function (field) {
-        clearError(field);
+  //     form.querySelectorAll('[required]').forEach(function (field) {
+  //       clearError(field);
 
-        if (!field.value.trim()) {
-          showError(field, 'This field is required.');
-          isValid = false;
-        } else if (field.type === 'email' && !isValidEmail(field.value)) {
-          showError(field, 'Please enter a valid email address.');
-          isValid = false;
-        } else if (field.type === 'tel' && !isValidPhone(field.value)) {
-          showError(field, 'Please enter a valid 10-digit phone number.');
-          isValid = false;
-        }
-      });
+  //       if (!field.value.trim()) {
+  //         showError(field, 'This field is required.');
+  //         isValid = false;
+  //       } else if (field.type === 'email' && !isValidEmail(field.value)) {
+  //         showError(field, 'Please enter a valid email address.');
+  //         isValid = false;
+  //       } else if (field.type === 'tel' && !isValidPhone(field.value)) {
+  //         showError(field, 'Please enter a valid 10-digit phone number.');
+  //         isValid = false;
+  //       }
+  //     });
 
-      if (isValid) {
-        var successMsg = form.querySelector('.form-success');
-        if (successMsg) {
-          successMsg.classList.remove('d-none');
-          form.reset();
-          setTimeout(function () {
-            successMsg.classList.add('d-none');
-          }, 5000);
-        } else {
-          alert('Thank you! Your message has been sent successfully. We will contact you soon.');
-          form.reset();
-        }
-      }
-    });
+  //     if (isValid) {
+  //       var successMsg = form.querySelector('.form-success');
+  //       if (successMsg) {
+  //         successMsg.classList.remove('d-none');
+  //         form.reset();
+  //         setTimeout(function () {
+  //           successMsg.classList.add('d-none');
+  //         }, 5000);
+  //       } else {
+  //         alert('Thank you! Your message has been sent successfully. We will contact you soon.');
+  //         form.reset();
+  //       }
+  //     }
+  //   });
 
-    form.querySelectorAll('[required]').forEach(function (field) {
-      field.addEventListener('input', function () {
-        clearError(field);
-      });
-    });
-  });
+  //   form.querySelectorAll('[required]').forEach(function (field) {
+  //     field.addEventListener('input', function () {
+  //       clearError(field);
+  //     });
+  //   });
+  // });
 
-  function showError(field, message) {
-    field.classList.add('is-invalid');
-    var feedback = field.parentElement.querySelector('.invalid-feedback');
-    if (feedback) {
-      feedback.textContent = message;
-    }
-  }
+  // function showError(field, message) {
+  //   field.classList.add('is-invalid');
+  //   var feedback = field.parentElement.querySelector('.invalid-feedback');
+  //   if (feedback) {
+  //     feedback.textContent = message;
+  //   }
+  // }
 
-  function clearError(field) {
-    field.classList.remove('is-invalid');
-  }
+  // function clearError(field) {
+  //   field.classList.remove('is-invalid');
+  // }
 
-  function isValidEmail(email) {
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-  }
+  // function isValidEmail(email) {
+  //   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  // }
 
-  function isValidPhone(phone) {
-    return /^[6-9]\d{9}$/.test(phone.replace(/\s/g, ''));
-  }
+  // function isValidPhone(phone) {
+  //   return /^[6-9]\d{9}$/.test(phone.replace(/\s/g, ''));
+  // }
 
   /* ---- Close mobile menu on link click ---- */
   var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
